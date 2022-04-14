@@ -1,0 +1,47 @@
+.topnav {
+background-color:#202A44;
+overflow: hidden;
+height: 5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav-left {
+    float: left;
+  }
+
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.body{
+    background-image: url('/img/student.jpg');
+    height:700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+ 
