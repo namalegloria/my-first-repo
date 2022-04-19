@@ -1,7 +1,7 @@
 .topnav {
 background-color:#202A44;
 overflow: hidden;
-height: 5rem;
+height: 6rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -27,21 +27,39 @@ align-items: center;
     background-color: #ddd;
     color: black;
 }
-.body{
-    background-image: url('/img/student.jpg');
+.carousel-inner{
+    /* background-image: url('/img/student.jpg'); */
     height:700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#gate{
+  height: fit-content;
+  height: 115vh;
+}
+.carousel-inner {
+  /* filter: brightness(390%); */
+  position: relative;
+  /* background: linear-gradient(to right, navy, navy) !important; */
+  /* width: 100px !important; */
+  
+}
 
-
-
-
-
-
-
-
-
- 
+.carousel-inner .item::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  /* background-color: navy; */
+  position: absolute;
+  top: 0; left: 0;z-index: 10;
+  background: linear-gradient(to right, #0B0B45, #fff0) !important;
+}
+#logo{
+	width:20%;
+    height:auto;
+    border-radius:50%;
+    opacity:1;
+    
+}
